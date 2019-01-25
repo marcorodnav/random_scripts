@@ -1,4 +1,8 @@
 #!/bin/bash
+# Script for installing java11 on Ubuntu
+# This is because currently (Jan, 24 2019) the apt package available
+# states "openjdk-11", but installs the version 10.0.2
+# It was tested (and made for) Ubuntu 18.02
 echo "Downloading tarball"
 wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz ~/Downloads/openjdk-11.0.2_linux-x64_bin.tar.gz
 echo "Extracting tarball"
